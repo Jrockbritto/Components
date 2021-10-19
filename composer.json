@@ -1,0 +1,23 @@
+{
+    "name": "joaorock/card",
+    "description": "Cria cards no portal",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jrockbritto",
+            "email": "jrockbritto@gmail.com"
+        }
+      ],
+      "require": {
+          "php": ">= 7.2.0"
+      },
+      "autoload": {
+          "psr-0": {
+              "Card": "src/"
+          },
+          "psr-4": {
+              "components\\": "src/"
+          }
+      }
+}
